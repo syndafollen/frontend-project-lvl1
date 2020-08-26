@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/syndafollen/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-jest": "^23.20.0"
+  }
 }
