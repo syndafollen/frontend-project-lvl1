@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme",
   "dependencies": {
+    "@jest/globals": "^26.4.2",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "readline-sync": "^1.4.10"
