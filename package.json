@@ -21,14 +21,11 @@
   "type": "module",
   "jest": {
     "testEnvironment": "node",
-    "verbose": true,
-    "roots": [
-    "<rootDir>/src"
-  ],
     "transform": {}
   },
   "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "debug": "^4.1.1",
     "lodash": "^4.17.20"
   },
