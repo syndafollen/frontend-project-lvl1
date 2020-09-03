@@ -21,14 +21,16 @@
   },
   "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme",
   "dependencies": {
-    "@jest/globals": "^26.4.2",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "readline-sync": "^1.4.10"
+    "debug": "^4.1.1",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
+    "@jest/globals": "^26.4.2",
     "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2"
   }
 }
