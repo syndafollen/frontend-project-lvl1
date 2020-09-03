@@ -6,6 +6,9 @@ brain-games:
 	
 publish:
 	npm publish --dry-run
+
+run:
+	bin/nodejs-package.js 10
 	
 test-coverage:
 	npm test -- --coverage --coverageProvider=v8
