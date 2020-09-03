@@ -1,6 +1,5 @@
 {
   "name": "frontend-project-lvl1",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,6 +17,15 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/syndafollen/frontend-project-lvl1/issues"
+  },
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "roots": [
+    "<rootDir>/src"
+  ],
+    "transform": {}
   },
   "homepage": "https://github.com/syndafollen/frontend-project-lvl1#readme",
   "dependencies": {
